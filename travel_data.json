@@ -2,7 +2,7 @@
     {
         "id": "1",
         "description": "Explore the Grand Canyon and take a helicopter tour for breathtaking views.",
-        "location": "Grand Canyon, USA",
+        "location": "Grand Canyon, Arizona, USA",
         "activities": [
             "Sightseeing",
             "Helicopter Tour"
@@ -12,7 +12,7 @@
     {
         "id": "2",
         "description": "Visit Times Square and see a Broadway show in New York City.",
-        "location": "New York City, USA",
+        "location": "New York City, New York, USA",
         "activities": [
             "Sightseeing",
             "Theater"
@@ -22,7 +22,7 @@
     {
         "id": "3",
         "description": "Enjoy a wine tasting tour in Napa Valley and dine at a Michelin-star restaurant.",
-        "location": "Napa Valley, USA",
+        "location": "Napa Valley, California, USA",
         "activities": [
             "Wine Tasting",
             "Dining"
@@ -32,7 +32,7 @@
     {
         "id": "4",
         "description": "Relax on the beaches of Miami and experience the vibrant nightlife.",
-        "location": "Miami, USA",
+        "location": "Miami, Florida, USA",
         "activities": [
             "Beach",
             "Nightlife"
@@ -42,7 +42,7 @@
     {
         "id": "5",
         "description": "Visit the Space Needle and explore the Pike Place Market in Seattle.",
-        "location": "Seattle, USA",
+        "location": "Seattle, Washington, USA",
         "activities": [
             "Sightseeing",
             "Market"
@@ -52,7 +52,7 @@
     {
         "id": "6",
         "description": "Discover the rich history of Boston with a Freedom Trail walking tour.",
-        "location": "Boston, USA",
+        "location": "Boston, Massachusetts, USA",
         "activities": [
             "Historical Tour",
             "Walking"
@@ -62,7 +62,7 @@
     {
         "id": "7",
         "description": "Experience the magic of Disneyland in Anaheim with family-friendly rides and attractions.",
-        "location": "Anaheim, USA",
+        "location": "Anaheim, California, USA",
         "activities": [
             "Theme Park",
             "Family Activities"
@@ -82,7 +82,7 @@
     {
         "id": "9",
         "description": "Hike in the Rocky Mountains and enjoy the stunning natural scenery.",
-        "location": "Rocky Mountains, USA",
+        "location": "Rocky Mountains, Colorado, USA",
         "activities": [
             "Hiking",
             "Nature"
@@ -92,7 +92,7 @@
     {
         "id": "10",
         "description": "Explore the French Quarter and enjoy live jazz music in New Orleans.",
-        "location": "New Orleans, USA",
+        "location": "New Orleans, Louisiana, USA",
         "activities": [
             "Sightseeing",
             "Music"
@@ -112,7 +112,7 @@
     {
         "id": "12",
         "description": "Visit the Art Institute of Chicago and walk through Millennium Park.",
-        "location": "Chicago, USA",
+        "location": "Chicago, Illinois, USA",
         "activities": [
             "Museum",
             "Park"
@@ -122,7 +122,7 @@
     {
         "id": "13",
         "description": "Experience the nightlife on Bourbon Street and try local Cajun cuisine.",
-        "location": "New Orleans, USA",
+        "location": "New Orleans, Louisiana, USA",
         "activities": [
             "Nightlife",
             "Dining"
@@ -132,7 +132,7 @@
     {
         "id": "14",
         "description": "Tour Alcatraz Island and enjoy waterfront dining at Fisherman's Wharf.",
-        "location": "San Francisco, USA",
+        "location": "San Francisco, California, USA",
         "activities": [
             "Historical Tour",
             "Dining"
@@ -142,7 +142,7 @@
     {
         "id": "15",
         "description": "Visit the Liberty Bell and Independence Hall in Philadelphia.",
-        "location": "Philadelphia, USA",
+        "location": "Philadelphia, Pennsylvania, USA",
         "activities": [
             "Historical Site",
             "Sightseeing"
@@ -152,7 +152,7 @@
     {
         "id": "16",
         "description": "Take a boat tour of Niagara Falls and explore the surrounding parks.",
-        "location": "Niagara Falls, USA",
+        "location": "Niagara Falls, New York, USA",
         "activities": [
             "Boat Tour",
             "Nature"
@@ -162,7 +162,7 @@
     {
         "id": "17",
         "description": "Explore the vibrant neighborhoods and art scene in Austin.",
-        "location": "Austin, USA",
+        "location": "Austin, Texas, USA",
         "activities": [
             "Sightseeing",
             "Art"
@@ -172,7 +172,7 @@
     {
         "id": "18",
         "description": "Enjoy a scenic hot air balloon ride over the Napa Valley vineyards.",
-        "location": "Napa Valley, USA",
+        "location": "Napa Valley, California, USA",
         "activities": [
             "Hot Air Balloon",
             "Sightseeing"
@@ -182,7 +182,7 @@
     {
         "id": "19",
         "description": "Visit the Kennedy Space Center and learn about space exploration.",
-        "location": "Cape Canaveral, USA",
+        "location": "Cape Canaveral, Florida, USA",
         "activities": [
             "Museum",
             "Sightseeing"
@@ -192,7 +192,7 @@
     {
         "id": "20",
         "description": "Experience the charm of Savannah's historic district with a guided tour.",
-        "location": "Savannah, USA",
+        "location": "Savannah, Georgia, USA",
         "activities": [
             "Historical Tour",
             "Sightseeing"
@@ -202,7 +202,7 @@
     {
         "id": "21",
         "description": "Tour the Biltmore Estate and gardens in Asheville.",
-        "location": "Asheville, USA",
+        "location": "Asheville, North Carolina, USA",
         "activities": [
             "Historical Site",
             "Gardens"
@@ -212,7 +212,7 @@
     {
         "id": "22",
         "description": "Take a guided tour of Hollywood and see famous landmarks and studios.",
-        "location": "Los Angeles, USA",
+        "location": "Los Angeles, California, USA",
         "activities": [
             "Tour",
             "Sightseeing"
@@ -272,7 +272,7 @@
     {
         "id": "28",
         "description": "Explore the vibrant neighborhoods and music scene in Nashville.",
-        "location": "Nashville, USA",
+        "location": "Nashville, Tennessee, USA",
         "activities": [
             "Sightseeing",
             "Music"
@@ -292,10 +292,210 @@
     {
         "id": "30",
         "description": "Discover the art galleries and historic sites in Santa Fe.",
-        "location": "Santa Fe, USA",
+        "location": "Santa Fe, New Mexico, USA",
         "activities": [
             "Art",
             "Historical Site"
+        ],
+        "duration": "4 hours"
+    },
+    {
+        "id": "31",
+        "description": "Explore the Glacier National Park and take a scenic drive on Going-to-the-Sun Road.",
+        "location": "Montana, USA",
+        "activities": [
+            "Sightseeing",
+            "Hiking"
+        ],
+        "duration": "1 day"
+    },
+    {
+        "id": "32",
+        "description": "Visit Mount Rushmore and explore the Black Hills.",
+        "location": "South Dakota, USA",
+        "activities": [
+            "Sightseeing",
+            "Hiking"
+        ],
+        "duration": "4 hours"
+    },
+    {
+        "id": "33",
+        "description": "Take a tour of the Henry Doorly Zoo and Aquarium in Omaha.",
+        "location": "Omaha, Nebraska, USA",
+        "activities": [
+            "Zoo",
+            "Sightseeing"
+        ],
+        "duration": "3 hours"
+    },
+    {
+        "id": "34",
+        "description": "Explore the Mammoth Cave National Park and take a guided cave tour.",
+        "location": "Kentucky, USA",
+        "activities": [
+            "Sightseeing",
+            "Hiking"
+        ],
+        "duration": "4 hours"
+    },
+    {
+        "id": "35",
+        "description": "Experience the lively atmosphere of Beale Street in Memphis and enjoy live blues music.",
+        "location": "Memphis, Tennessee, USA",
+        "activities": [
+            "Sightseeing",
+            "Music"
+        ],
+        "duration": "4 hours"
+    },
+    {
+        "id": "36",
+        "description": "Take a scenic drive through the Great Smoky Mountains National Park.",
+        "location": "Tennessee, USA",
+        "activities": [
+            "Sightseeing",
+            "Hiking"
+        ],
+        "duration": "1 day"
+    },
+    {
+        "id": "37",
+        "description": "Visit the USS Arizona Memorial at Pearl Harbor in Honolulu.",
+        "location": "Honolulu, Hawaii, USA",
+        "activities": [
+            "Historical Site",
+            "Sightseeing"
+        ],
+        "duration": "3 hours"
+    },
+    {
+        "id": "38",
+        "description": "Explore the Crater Lake National Park and enjoy the stunning views of the lake.",
+        "location": "Oregon, USA",
+        "activities": [
+            "Sightseeing",
+            "Hiking"
+        ],
+        "duration": "1 day"
+    },
+    {
+        "id": "39",
+        "description": "Visit the Indianapolis Motor Speedway and take a tour of the Hall of Fame Museum.",
+        "location": "Indianapolis, Indiana, USA",
+        "activities": [
+            "Sightseeing",
+            "Museum"
+        ],
+        "duration": "3 hours"
+    },
+    {
+        "id": "40",
+        "description": "Take a riverboat cruise on the Mississippi River in St. Louis.",
+        "location": "St. Louis, Missouri, USA",
+        "activities": [
+            "Sightseeing",
+            "Boat Ride"
+        ],
+        "duration": "4 hours"
+    },
+    {
+        "id": "41",
+        "description": "Visit the Georgia Aquarium and explore the diverse marine life exhibits.",
+        "location": "Atlanta, Georgia, USA",
+        "activities": [
+            "Sightseeing",
+            "Aquarium"
+        ],
+        "duration": "3 hours"
+    },
+    {
+        "id": "42",
+        "description": "Explore the historic sites and vibrant neighborhoods of Charleston.",
+        "location": "Charleston, South Carolina, USA",
+        "activities": [
+            "Sightseeing",
+            "Historical Site"
+        ],
+        "duration": "4 hours"
+    },
+    {
+        "id": "43",
+        "description": "Visit the French Quarter and explore the historic sites in Mobile.",
+        "location": "Mobile, Alabama, USA",
+        "activities": [
+            "Sightseeing",
+            "Historical Site"
+        ],
+        "duration": "3 hours"
+    },
+    {
+        "id": "44",
+        "description": "Take a scenic drive through the Ozark Mountains and enjoy the stunning views.",
+        "location": "Arkansas, USA",
+        "activities": [
+            "Sightseeing",
+            "Hiking"
+        ],
+        "duration": "1 day"
+    },
+    {
+        "id": "45",
+        "description": "Visit the Rock and Roll Hall of Fame in Cleveland.",
+        "location": "Cleveland, Ohio, USA",
+        "activities": [
+            "Sightseeing",
+            "Museum"
+        ],
+        "duration": "3 hours"
+    },
+    {
+        "id": "46",
+        "description": "Explore the historic sites and vibrant neighborhoods of Milwaukee.",
+        "location": "Milwaukee, Wisconsin, USA",
+        "activities": [
+            "Sightseeing",
+            "Historical Site"
+        ],
+        "duration": "4 hours"
+    },
+    {
+        "id": "47",
+        "description": "Visit the historic sites and vibrant neighborhoods of Providence.",
+        "location": "Providence, Rhode Island, USA",
+        "activities": [
+            "Sightseeing",
+            "Historical Site"
+        ],
+        "duration": "4 hours"
+    },
+    {
+        "id": "48",
+        "description": "Explore the vibrant neighborhoods and music scene in Minneapolis.",
+        "location": "Minneapolis, Minnesota, USA",
+        "activities": [
+            "Sightseeing",
+            "Music"
+        ],
+        "duration": "4 hours"
+    },
+    {
+        "id": "49",
+        "description": "Visit the historic sites and vibrant neighborhoods of Hartford.",
+        "location": "Hartford, Connecticut, USA",
+        "activities": [
+            "Sightseeing",
+            "Historical Site"
+        ],
+        "duration": "4 hours"
+    },
+    {
+        "id": "50",
+        "description": "Explore the vibrant neighborhoods and art scene in Des Moines.",
+        "location": "Des Moines, Iowa, USA",
+        "activities": [
+            "Sightseeing",
+            "Art"
         ],
         "duration": "4 hours"
     }

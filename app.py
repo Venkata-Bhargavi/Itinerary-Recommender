@@ -62,9 +62,11 @@ if user_query:
     prompt = ChatPromptTemplate.from_template(
         """
         Answer the questions based on the provided context only.
-        Please provide the response based on the question. output should be in the format
+        Please provide the response based on the question. output should be in the following format each representing in a new line. make sure you give top 3 recommendations of the same destination. if the no of recommendations is more than 3 for the same place
         description: places to visit
         activities: activities to do in that location
+        duration: no of days it takes
+        
         <context>
         {context}
         <context>
