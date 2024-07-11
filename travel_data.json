@@ -1,0 +1,302 @@
+[
+    {
+        "id": "1",
+        "description": "Explore the Grand Canyon and take a helicopter tour for breathtaking views.",
+        "location": "Grand Canyon, USA",
+        "activities": [
+            "Sightseeing",
+            "Helicopter Tour"
+        ],
+        "duration": "1 day"
+    },
+    {
+        "id": "2",
+        "description": "Visit Times Square and see a Broadway show in New York City.",
+        "location": "New York City, USA",
+        "activities": [
+            "Sightseeing",
+            "Theater"
+        ],
+        "duration": "4 hours"
+    },
+    {
+        "id": "3",
+        "description": "Enjoy a wine tasting tour in Napa Valley and dine at a Michelin-star restaurant.",
+        "location": "Napa Valley, USA",
+        "activities": [
+            "Wine Tasting",
+            "Dining"
+        ],
+        "duration": "6 hours"
+    },
+    {
+        "id": "4",
+        "description": "Relax on the beaches of Miami and experience the vibrant nightlife.",
+        "location": "Miami, USA",
+        "activities": [
+            "Beach",
+            "Nightlife"
+        ],
+        "duration": "1 day"
+    },
+    {
+        "id": "5",
+        "description": "Visit the Space Needle and explore the Pike Place Market in Seattle.",
+        "location": "Seattle, USA",
+        "activities": [
+            "Sightseeing",
+            "Market"
+        ],
+        "duration": "4 hours"
+    },
+    {
+        "id": "6",
+        "description": "Discover the rich history of Boston with a Freedom Trail walking tour.",
+        "location": "Boston, USA",
+        "activities": [
+            "Historical Tour",
+            "Walking"
+        ],
+        "duration": "3 hours"
+    },
+    {
+        "id": "7",
+        "description": "Experience the magic of Disneyland in Anaheim with family-friendly rides and attractions.",
+        "location": "Anaheim, USA",
+        "activities": [
+            "Theme Park",
+            "Family Activities"
+        ],
+        "duration": "1 day"
+    },
+    {
+        "id": "8",
+        "description": "Tour the Smithsonian Museums and see the National Mall in Washington, D.C.",
+        "location": "Washington, D.C., USA",
+        "activities": [
+            "Museum",
+            "Sightseeing"
+        ],
+        "duration": "5 hours"
+    },
+    {
+        "id": "9",
+        "description": "Hike in the Rocky Mountains and enjoy the stunning natural scenery.",
+        "location": "Rocky Mountains, USA",
+        "activities": [
+            "Hiking",
+            "Nature"
+        ],
+        "duration": "1 day"
+    },
+    {
+        "id": "10",
+        "description": "Explore the French Quarter and enjoy live jazz music in New Orleans.",
+        "location": "New Orleans, USA",
+        "activities": [
+            "Sightseeing",
+            "Music"
+        ],
+        "duration": "4 hours"
+    },
+    {
+        "id": "11",
+        "description": "Take a scenic drive along the Pacific Coast Highway with stops at key viewpoints.",
+        "location": "California, USA",
+        "activities": [
+            "Scenic Drive",
+            "Sightseeing"
+        ],
+        "duration": "1 day"
+    },
+    {
+        "id": "12",
+        "description": "Visit the Art Institute of Chicago and walk through Millennium Park.",
+        "location": "Chicago, USA",
+        "activities": [
+            "Museum",
+            "Park"
+        ],
+        "duration": "3 hours"
+    },
+    {
+        "id": "13",
+        "description": "Experience the nightlife on Bourbon Street and try local Cajun cuisine.",
+        "location": "New Orleans, USA",
+        "activities": [
+            "Nightlife",
+            "Dining"
+        ],
+        "duration": "5 hours"
+    },
+    {
+        "id": "14",
+        "description": "Tour Alcatraz Island and enjoy waterfront dining at Fisherman's Wharf.",
+        "location": "San Francisco, USA",
+        "activities": [
+            "Historical Tour",
+            "Dining"
+        ],
+        "duration": "4 hours"
+    },
+    {
+        "id": "15",
+        "description": "Visit the Liberty Bell and Independence Hall in Philadelphia.",
+        "location": "Philadelphia, USA",
+        "activities": [
+            "Historical Site",
+            "Sightseeing"
+        ],
+        "duration": "3 hours"
+    },
+    {
+        "id": "16",
+        "description": "Take a boat tour of Niagara Falls and explore the surrounding parks.",
+        "location": "Niagara Falls, USA",
+        "activities": [
+            "Boat Tour",
+            "Nature"
+        ],
+        "duration": "4 hours"
+    },
+    {
+        "id": "17",
+        "description": "Explore the vibrant neighborhoods and art scene in Austin.",
+        "location": "Austin, USA",
+        "activities": [
+            "Sightseeing",
+            "Art"
+        ],
+        "duration": "5 hours"
+    },
+    {
+        "id": "18",
+        "description": "Enjoy a scenic hot air balloon ride over the Napa Valley vineyards.",
+        "location": "Napa Valley, USA",
+        "activities": [
+            "Hot Air Balloon",
+            "Sightseeing"
+        ],
+        "duration": "3 hours"
+    },
+    {
+        "id": "19",
+        "description": "Visit the Kennedy Space Center and learn about space exploration.",
+        "location": "Cape Canaveral, USA",
+        "activities": [
+            "Museum",
+            "Sightseeing"
+        ],
+        "duration": "4 hours"
+    },
+    {
+        "id": "20",
+        "description": "Experience the charm of Savannah's historic district with a guided tour.",
+        "location": "Savannah, USA",
+        "activities": [
+            "Historical Tour",
+            "Sightseeing"
+        ],
+        "duration": "3 hours"
+    },
+    {
+        "id": "21",
+        "description": "Tour the Biltmore Estate and gardens in Asheville.",
+        "location": "Asheville, USA",
+        "activities": [
+            "Historical Site",
+            "Gardens"
+        ],
+        "duration": "4 hours"
+    },
+    {
+        "id": "22",
+        "description": "Take a guided tour of Hollywood and see famous landmarks and studios.",
+        "location": "Los Angeles, USA",
+        "activities": [
+            "Tour",
+            "Sightseeing"
+        ],
+        "duration": "4 hours"
+    },
+    {
+        "id": "23",
+        "description": "Visit the Calgary Stampede and enjoy rodeo events and exhibitions.",
+        "location": "Calgary, Canada",
+        "activities": [
+            "Event",
+            "Sightseeing"
+        ],
+        "duration": "5 hours"
+    },
+    {
+        "id": "24",
+        "description": "Explore the historic Old Montreal and visit the Notre-Dame Basilica.",
+        "location": "Montreal, Canada",
+        "activities": [
+            "Sightseeing",
+            "Historical Site"
+        ],
+        "duration": "3 hours"
+    },
+    {
+        "id": "25",
+        "description": "Tour the CN Tower and take a boat ride on Lake Ontario in Toronto.",
+        "location": "Toronto, Canada",
+        "activities": [
+            "Sightseeing",
+            "Boat Ride"
+        ],
+        "duration": "4 hours"
+    },
+    {
+        "id": "26",
+        "description": "Hike the trails of Banff National Park and enjoy the stunning mountain views.",
+        "location": "Banff, Canada",
+        "activities": [
+            "Hiking",
+            "Nature"
+        ],
+        "duration": "1 day"
+    },
+    {
+        "id": "27",
+        "description": "Visit the Butchart Gardens and enjoy afternoon tea in Victoria.",
+        "location": "Victoria, Canada",
+        "activities": [
+            "Gardens",
+            "Dining"
+        ],
+        "duration": "3 hours"
+    },
+    {
+        "id": "28",
+        "description": "Explore the vibrant neighborhoods and music scene in Nashville.",
+        "location": "Nashville, USA",
+        "activities": [
+            "Sightseeing",
+            "Music"
+        ],
+        "duration": "4 hours"
+    },
+    {
+        "id": "29",
+        "description": "Visit the Smithsonian National Air and Space Museum in Washington, D.C.",
+        "location": "Washington, D.C., USA",
+        "activities": [
+            "Museum",
+            "Sightseeing"
+        ],
+        "duration": "3 hours"
+    },
+    {
+        "id": "30",
+        "description": "Discover the art galleries and historic sites in Santa Fe.",
+        "location": "Santa Fe, USA",
+        "activities": [
+            "Art",
+            "Historical Site"
+        ],
+        "duration": "4 hours"
+    }
+]
