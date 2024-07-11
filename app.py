@@ -28,6 +28,7 @@ file_path = 'travel_data.json'
 groq_api_key =  os.getenv('GROQ_API_KEY')
 os.environ["GOOGLE_API_KEY"] = os.getenv("GOOGLE_API_KEY")
 # google_api_key = "AIzaSyDtDfEErK6bZMJV-EZq2vZkrluXuKuOSB0"
+
 # Initialize the LLM
 llm = ChatGroq(groq_api_key=groq_api_key, model_name="Llama3-8b-8192")
 embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
@@ -37,11 +38,11 @@ embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
 
 loader = JSONLoader(
     file_path=file_path,
-    jq_schema='.',  # Adjust the jq_schema as per your JSON structure
-    text_content=False  # Set to True if your JSON contains text content to be processed
+    jq_schema='.',  # jq_schema as per your JSON structure
+    text_content=False
 )
 
-# Load documents
+# Load JSON
 docs = loader.load()
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
 final_documents = text_splitter.split_documents(docs)
@@ -52,13 +53,13 @@ vectors = FAISS.from_documents(final_documents, embeddings)
 
 
 # Streamlit UI
-st.title('Travel Itinerary Recommender')
+st.title('Trip Explorer')
 
 # User input for query
 user_query = st.text_input('Enter your travel preferences or needs:')
 
 if user_query:
-    # Define the prompt template
+    # Defining the prompt template
     prompt = ChatPromptTemplate.from_template(
         """
         Answer the questions based on the provided context only.
@@ -68,6 +69,7 @@ if user_query:
         activities: activities to do in that location
         duration: no of days it takes
         
+        Handle typos and variations in questions asked.
         <context>
         {context}
         <context>
@@ -75,7 +77,7 @@ if user_query:
         """
     )
 
-    # Create document chain
+    # Creating document chain
     document_chain = create_stuff_documents_chain(llm, prompt)
     retriever = vectors.as_retriever()
     retrieval_chain = create_retrieval_chain(retriever, document_chain)
