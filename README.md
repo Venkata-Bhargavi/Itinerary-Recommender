@@ -2,6 +2,10 @@
 
 Welcome to the Trip Explorer Streamlit app! This app leverages advanced language models and vector databases to deliver personalized travel recommendations based on user queries. It provides a simple and intuitive interface to help you plan your trips by suggesting destinations, activities, and durations tailored to your preferences.
 
+### Streamlit App:  https://trip-explorer.streamlit.app/
+
+### Youtube link: 
+
 ## Features
 
 - **Personalized Travel Recommendations**: Get tailored suggestions for destinations, activities, and durations based on your input.
