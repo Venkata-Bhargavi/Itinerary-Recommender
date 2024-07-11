@@ -13,11 +13,10 @@ from langchain_google_genai import GoogleGenerativeAIEmbeddings
 # from langchain_community.document_loaders import PyJSONLoader
 from langchain_community.document_loaders import JSONLoader
 from pathlib import Path
-
+from dotenv import load_dotenv
 from langchain_community.document_loaders import PyPDFDirectoryLoader
 
-
-
+load_dotenv()
 
 with open('travel_data.json', 'r', encoding='utf-8') as file:
     travel_data = json.load(file)
@@ -26,8 +25,8 @@ file_path = 'travel_data.json'
 
 
 # Load the GROQ and OpenAI API keys
-groq_api_key = "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" #os.getenv('GROQ_API_KEY')
-os.environ["GOOGLE_API_KEY"] = "AIzaSyDtDfEErK6bZMJV-EZq2vZkrluXuKuOSB0"#os.getenv("GOOGLE_API_KEY")
+groq_api_key =  os.getenv('GROQ_API_KEY')
+os.environ["GOOGLE_API_KEY"] = os.getenv("GOOGLE_API_KEY")
 # google_api_key = "AIzaSyDtDfEErK6bZMJV-EZq2vZkrluXuKuOSB0"
 # Initialize the LLM
 llm = ChatGroq(groq_api_key=groq_api_key, model_name="Llama3-8b-8192")
