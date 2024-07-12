@@ -6,7 +6,7 @@ Welcome to the Trip Explorer Streamlit app! This app leverages advanced language
 
 ### Document: https://drive.google.com/file/d/1aCcyRhPPAu-uJXSUEUtnpl7TLLepSybr/view?usp=sharing
 
-### Youtube link: 
+### Youtube link: https://www.youtube.com/watch?v=b2aAcV9yzMc&ab_channel=bhargavisikhakolli
 
 ## Features
 

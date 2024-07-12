@@ -18,20 +18,12 @@ with open('travel_data.json', 'r', encoding='utf-8') as file:
     travel_data = json.load(file)
 
 file_path = 'travel_data.json'
-
-
 # Load the GROQ and OpenAI API keys
 groq_api_key =  os.getenv('GROQ_API_KEY')
 os.environ["GOOGLE_API_KEY"] = os.getenv("GOOGLE_API_KEY")
-# google_api_key = "AIzaSyDtDfEErK6bZMJV-EZq2vZkrluXuKuOSB0"
-
 # Initialize the LLM
 llm = ChatGroq(groq_api_key=groq_api_key, model_name="Llama3-8b-8192")
 embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
-
-
-
-
 loader = JSONLoader(
     file_path=file_path,
     jq_schema='.',  # jq_schema as per your JSON structure
@@ -42,19 +34,13 @@ loader = JSONLoader(
 docs = loader.load()
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
 final_documents = text_splitter.split_documents(docs)
-
 vectors = FAISS.from_documents(final_documents, embeddings)
-
-
 image_path = "img.png"
-
 # Streamlit UI
 st.title('Trip Explorer')
-
 st.image(image_path, use_column_width=True)
 # User input for query
 user_query = st.text_input('Enter your travel preferences or needs:')
-
 if user_query:
     # Defining the prompt template
     prompt = ChatPromptTemplate.from_template(
