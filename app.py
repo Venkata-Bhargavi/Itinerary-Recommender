@@ -46,11 +46,12 @@ final_documents = text_splitter.split_documents(docs)
 vectors = FAISS.from_documents(final_documents, embeddings)
 
 
-
+image_path = "img.png"
 
 # Streamlit UI
 st.title('Trip Explorer')
 
+st.image(image_path, use_column_width=True)
 # User input for query
 user_query = st.text_input('Enter your travel preferences or needs:')
 
