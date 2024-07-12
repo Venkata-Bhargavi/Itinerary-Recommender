@@ -4,6 +4,8 @@ Welcome to the Trip Explorer Streamlit app! This app leverages advanced language
 
 ### Streamlit App:  https://trip-explorer.streamlit.app/
 
+### Document: https://drive.google.com/file/d/1aCcyRhPPAu-uJXSUEUtnpl7TLLepSybr/view?usp=sharing
+
 ### Youtube link: 
 
 ## Features
